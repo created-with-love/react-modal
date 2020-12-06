@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import Modal from './components/Modal';
-
-// часы
 import Clock from './components/Clock';
 import Tabs from './components/Tabs';
 import tabsData from './data/tabs.json';
+import IconButton from './components/IconButton';
+import { ReactComponent as CloseIcon } from './icons/close.svg';
 
 class App extends Component {
   state = {
@@ -38,13 +38,21 @@ class App extends Component {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum
             </p>
-            <button
+            {/* <button
               type="button"
               onClick={this.toggleModal}
               className="Modal__close"
             >
               Закрыть
-            </button>
+            </button> */}
+            <IconButton className="Modal__close">
+              <CloseIcon
+                width="32"
+                height="32"
+                fill="#black"
+                onClick={this.toggleModal}
+              />
+            </IconButton>
           </Modal>
         )}
 
