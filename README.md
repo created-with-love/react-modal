@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## INFO :
+template for React Modal + Clock + Tabs
+
 ## Dependencies :
 -prettier
 -husky
