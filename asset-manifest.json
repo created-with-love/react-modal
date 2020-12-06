@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-modal-clock-tabs/static/css/main.dc85a2ba.chunk.css",
-    "main.js": "/react-modal-clock-tabs/static/js/main.c9402897.chunk.js",
-    "main.js.map": "/react-modal-clock-tabs/static/js/main.c9402897.chunk.js.map",
+    "main.js": "/react-modal-clock-tabs/static/js/main.51805da5.chunk.js",
+    "main.js.map": "/react-modal-clock-tabs/static/js/main.51805da5.chunk.js.map",
     "runtime-main.js": "/react-modal-clock-tabs/static/js/runtime-main.6834a61f.js",
     "runtime-main.js.map": "/react-modal-clock-tabs/static/js/runtime-main.6834a61f.js.map",
     "static/js/2.f29df3f9.chunk.js": "/react-modal-clock-tabs/static/js/2.f29df3f9.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.6834a61f.js",
     "static/js/2.f29df3f9.chunk.js",
     "static/css/main.dc85a2ba.chunk.css",
-    "static/js/main.c9402897.chunk.js"
+    "static/js/main.51805da5.chunk.js"
   ]
 }
