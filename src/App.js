@@ -28,6 +28,13 @@ class App extends Component {
 
         {showModal && (
           <Modal onClose={this.toggleModal}>
+            <IconButton
+              className="IconButton Modal__close"
+              onClick={this.toggleModal}
+              aria-label="close button"
+            >
+              <CloseIcon width="32" height="32" fill="#black" />
+            </IconButton>
             <h1>Это контент для модалки, как children</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -38,21 +45,6 @@ class App extends Component {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum
             </p>
-            {/* <button
-              type="button"
-              onClick={this.toggleModal}
-              className="Modal__close"
-            >
-              Закрыть
-            </button> */}
-            <IconButton className="Modal__close">
-              <CloseIcon
-                width="32"
-                height="32"
-                fill="#black"
-                onClick={this.toggleModal}
-              />
-            </IconButton>
           </Modal>
         )}
 
